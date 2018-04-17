@@ -1,0 +1,54 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "My website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "Web Design",
+    "Brisbane",
+    "iFactory"
+  ],
+  "author": "iFactory",
+  "license": "ISC",
+  "dependencies": {
+    "argv": "0.0.2",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "font-awesome": "^4.7.0",
+    "glob-fs": "^0.1.7",
+    "jquery": "^3.3.1",
+    "mime": "^2.2.0",
+    "mu2": "^0.5.21",
+    "mysql2": "^1.5.3",
+    "node-cache": "^4.2.0",
+    "npm": "^5.8.0",
+    "popper.js": "^1.14.1",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-exit": "0.0.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "nodemon": "^1.17.1"
+  }
+}
