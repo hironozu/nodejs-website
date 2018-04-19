@@ -55,4 +55,4 @@ Open https://localhost:8080/
 
 ## How to run on Production Environment
 
-`gulp build` generates the compressed version of CSS file and JS file (I decided do this way because the compression process takes too long for the development work).
+`gulp build` generates the compressed version of CSS file and JS file. I decided do this because the compression process takes too long for the development work. After that, [forever](https://www.npmjs.com/package/forever) or smilar program should keep your website running.
