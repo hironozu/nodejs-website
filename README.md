@@ -52,3 +52,7 @@ gulp
 ```
 
 Open https://localhost:8080/
+
+## How to run on Production Environment
+
+`gulp build` generates the compressed version of CSS file and JS file (I decided do this way because the compression process takes too long for the development work).
