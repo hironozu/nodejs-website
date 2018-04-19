@@ -1,17 +1,19 @@
 # Hiro's simple Node.js website
 
-## Install Node.js if you have not
+## How to use
+
+### Install Node.js if you have not
 
 https://nodejs.org/en/
 
-## Execute the followings on terminal (This step takes time)
+### Execute the followings on terminal (This step takes time)
 
 ```
 sudo npm update -g
 npm install
 ```
 
-## Comment the following lines
+### Comment the following lines
 
 in node_modules/bootstrap/scss/utilities/_text.scss if it exists:
 
@@ -21,9 +23,9 @@ in node_modules/bootstrap/scss/utilities/_text.scss if it exists:
 }
 ```
 
-## Install self-signed SSL Certificate
+### Install self-signed SSL Certificate
 
-### Windows
+#### Windows
 
 1. Open Control Panel.
 2. Search "cert".
@@ -34,11 +36,11 @@ in node_modules/bootstrap/scss/utilities/_text.scss if it exists:
 6. Import the file "ssl/httpd-selfsigned.crt".
 7. (Important) Exit Chrome (or your web browser).
 
-### MacOS
+#### MacOS
 
 Import Root Certficate with KeyChain Application.
 
-## Finally
+### Finally
 
 ```
 cp config.example.js config.js
@@ -46,4 +48,3 @@ gulp
 ```
 
 Open https://localhost:8080/
-
