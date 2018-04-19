@@ -6,6 +6,10 @@
 
 https://nodejs.org/en/
 
+### Download ZIP
+
+Better than `git pull` as you should have your own Git Repository for your own situation.
+
 ### Execute the followings on terminal (This step takes time)
 
 ```
