@@ -11,7 +11,7 @@ sudo npm update -g
 npm install
 ```
 
-# Comment the following lines
+## Comment the following lines
 
 in node_modules/bootstrap/scss/utilities/_text.scss if it exists:
 
