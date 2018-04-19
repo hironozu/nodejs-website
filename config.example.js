@@ -10,8 +10,8 @@ config.db = {
   database: 'my_database'
 };
 
-config.privateKey = 'ssl/selfsigned.key';
-config.certificate = 'ssl/selfsigned.crt';
+config.privateKey = 'ssl/httpd-selfsigned.key';
+config.certificate = 'ssl/httpd-selfsigned.crt';
 config.port = 8080;
 config.indexPage = 'test-page';
 config.sitename = 'Node.js Website';
