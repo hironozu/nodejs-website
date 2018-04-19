@@ -2,20 +2,21 @@
   "name": "my-website",
   "version": "1.0.0",
   "description": "My website.",
+  "homepage": "https://github.com/hironozu/nodejs-website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/hironozu/nodejs-website.git"
   },
   "keywords": [
     "Web Design",
     "Brisbane",
     "iFactory"
   ],
-  "author": "iFactory",
+  "author": "Hiro Nozu",
   "license": "ISC",
   "dependencies": {
     "argv": "0.0.2",
