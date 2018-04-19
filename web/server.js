@@ -102,9 +102,8 @@ function main() {
                 // console.log('chunk', chunk);
                 rawData += chunk;
 
-                // Too much POST data, kill the connection!!
+                // Kill the connection if there is too much POST data
                 // 1e6 === 1 * Math.pow(10, 6) === 1 * 1000000 ~~~ 1MB
-                // FLOOD ATTACK OR FAULTY CLIENT, NUKE REQUEST
                 if (rawData.length > 1e6) {
                   console.log('FLOOD ATTACK OR FAULTY CLIENT, NUKE REQUEST?', request.url, rawData);
                   response.writeHead(413, {'Content-Type': 'text/plain'}).end();
