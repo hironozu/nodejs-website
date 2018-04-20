@@ -56,3 +56,19 @@ Open https://localhost:8080/
 ## How to run on Production Environment
 
 `gulp build` generates the compressed version of CSS file and JS file. I decided do this because the compression process takes too long for the development work. After that, [forever](https://www.npmjs.com/package/forever) or smilar program should keep your website running.
+
+## References
+
+- [Basic node.js server without express, returning HTML contents instead plain text.](https://gist.github.com/timbergus/5812357)
+- [Simple HTTP Server and Router in node.js](https://gist.github.com/jeffrafter/353700)
+
+### How to determine path to deep outdated/deprecated packages (NPM)?
+
+When you see `WARN deprecated` on `npm install`.
+
+http://stackoverflow.com/questions/36329944/how-to-determine-path-to-deep-outdated-deprecated-packages-npm/36335866#36335866
+
+```shell
+npm install -g npm-check-updates
+ncu
+```

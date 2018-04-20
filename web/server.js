@@ -1,14 +1,3 @@
-// https://gist.github.com/timbergus/5812357
-// https://gist.github.com/jeffrafter/353700
-/**
- * To amend dependencies or deprecated packages
- * http://stackoverflow.com/questions/36329944/how-to-determine-path-to-deep-outdated-deprecated-packages-npm/36335866#36335866
- * npm install -g npm-check-updates
- * ncu
- *
- * https://www.npmjs.com/package/gulp-nodemon
- * npm install --save-dev gulp-nodemon
- */
 
 'use strict';
 
