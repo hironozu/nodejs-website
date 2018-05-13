@@ -70,5 +70,16 @@ http://stackoverflow.com/questions/36329944/how-to-determine-path-to-deep-outdat
 
 ```shell
 npm install -g npm-check-updates
-ncu
+ncu -u
+```
+
+### gulp does not work
+
+Reinstall the package after clearing the cache for npm may resolve the issue.
+
+```shell
+rm -rf node_modules packaege-lock.json
+rm -rf package-lock.json
+npm cache clean --force
+npm install
 ```
